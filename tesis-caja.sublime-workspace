@@ -1,0 +1,696 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"re",
+				"remaining	statement"
+			],
+			[
+				"try",
+				"try	Try/Except"
+			],
+			[
+				"ema",
+				"email_cliente"
+			],
+			[
+				"card",
+				"cardId"
+			],
+			[
+				"the",
+				"the_dump"
+			],
+			[
+				"margi",
+				"margin-bottom"
+			],
+			[
+				"fec",
+				"fecha-a"
+			],
+			[
+				"fecha",
+				"fecha-d"
+			],
+			[
+				"wid",
+				"width"
+			],
+			[
+				"ech",
+				"echo"
+			],
+			[
+				"bac",
+				"background"
+			],
+			[
+				"rut",
+				"rutaCard"
+			],
+			[
+				"c_",
+				"c_width"
+			],
+			[
+				"font",
+				"font-size"
+			],
+			[
+				"pad",
+				"padding"
+			],
+			[
+				"bord",
+				"border-box"
+			],
+			[
+				"ba",
+				"background"
+			],
+			[
+				"no",
+				"no-repeat"
+			],
+			[
+				"mar",
+				"margin-bottom"
+			],
+			[
+				"fon",
+				"font-size"
+			],
+			[
+				"back",
+				"background-size"
+			],
+			[
+				"tex",
+				"text-indent"
+			],
+			[
+				"te",
+				"text-align"
+			],
+			[
+				"b",
+				"block"
+			],
+			[
+				"mari",
+				"margin-top"
+			],
+			[
+				"marg",
+				"margin"
+			],
+			[
+				"bor",
+				"border"
+			],
+			[
+				"da",
+				"datos"
+			],
+			[
+				"borde",
+				"border-box"
+			],
+			[
+				"inl",
+				"inline-block"
+			],
+			[
+				"email",
+				"email_body"
+			],
+			[
+				"err",
+				"errorString"
+			],
+			[
+				"alph",
+				"alpha_numeric"
+			],
+			[
+				"con",
+				"contenido"
+			],
+			[
+				"arra",
+				"array"
+			],
+			[
+				"print",
+				"print_r"
+			],
+			[
+				"in",
+				"inline-block"
+			],
+			[
+				"date",
+				"date_format"
+			],
+			[
+				"el",
+				"elchild"
+			],
+			[
+				"sl",
+				"slideToggle"
+			],
+			[
+				"max",
+				"max-width"
+			],
+			[
+				"t",
+				"text-top"
+			],
+			[
+				"cont",
+				"cont_preg"
+			],
+			[
+				"resul",
+				"resultados"
+			],
+			[
+				"pregun",
+				"preguntas"
+			],
+			[
+				"mysql_fiel",
+				"mysql_field_name"
+			],
+			[
+				"for",
+				"foreach	foreach …"
+			],
+			[
+				"_",
+				"_POST"
+			],
+			[
+				"ac",
+				"action	Attr"
+			],
+			[
+				"bore",
+				"border-box"
+			],
+			[
+				"min",
+				"min-width"
+			],
+			[
+				"RE",
+				"RenaultLifeB"
+			],
+			[
+				"RFE",
+				"RenaultLifeL"
+			],
+			[
+				"inlin",
+				"inline-block"
+			],
+			[
+				"margin",
+				"margin"
+			],
+			[
+				"ur",
+				"url"
+			],
+			[
+				"fuen",
+				"fuente2"
+			],
+			[
+				"wi",
+				"width"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 87.0,
+		"last_filter": "Package Control: rem",
+		"selected_items":
+		[
+			[
+				"Package Control: rem",
+				"Package Control: Remove Package"
+			],
+			[
+				"Package Control: ",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 449.0
+	},
+	"console":
+	{
+		"height": 186.0,
+		"history":
+		[
+			"import urllib.request,os,hashlib; h = '2915d1851351e5ee549c20394736b442' + '8bc59f460fa1548d1514676163dafc88'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+	],
+	"file_history":
+	[
+		"/Users/vjdarr/Google Drive/MADIC/Tesis/Eventos/Uber/Preparación/Depuración/first_attempts/tweepy_test.py",
+		"/Users/vjdarr/Google Drive/MADIC/Tesis/Eventos/Uber/Preparación/Depuración/first_attempts/search.py",
+		"/Users/vjdarr/Google Drive/MADIC/Tesis/Eventos/Uber/Preparación/Depuración/code/preprocess.py",
+		"/Users/vjdarr/Google Drive/MADIC/Tesis/Eventos/Uber/Preparación/Depuración/code/output/descripciones_analisis/clasificados.txt",
+		"/Users/vjdarr/Google Drive/descripciones_part/faltantes00.txt",
+		"/Users/vjdarr/GitHub/tesis-caja/filtering/descriptiones_recuperadas_00.csv",
+		"/Users/vjdarr/Google Drive/MADIC/Tesis/Eventos/Uber/Preparación/Depuración/code/output/descripciones_analisis/descs_g-o_parte2.txt",
+		"/Users/vjdarr/Google Drive/MADIC/Tesis/Eventos/Uber/Preparación/Depuración/code/output/descripciones_analisis/descripciones_o-z.txt",
+		"/Users/vjdarr/Google Drive/descripciones_part/descs_0-f_parte2.txt",
+		"/Users/vjdarr/Google Drive/descripciones_part/descripciones_0-f_parte2.txt",
+		"/Users/vjdarr/GitHub/tesis-caja/filtering/descriptiones_recuperadas_04.csv",
+		"/Users/vjdarr/GitHub/tesis-caja/filtering/descriptiones_recuperadas_03.csv",
+		"/Users/vjdarr/GitHub/tesis-caja/filtering/descriptiones_recuperadas_02.csv",
+		"/Users/vjdarr/GitHub/tesis-caja/filtering/descriptiones_recuperadas_01.csv",
+		"/Users/vjdarr/Google Drive/descripciones_part/descs_g-o_parte2.txt",
+		"/Users/vjdarr/GitHub/tesis-caja/filtering/descs_0-f_parte2.txt",
+		"/Users/vjdarr/GitHub/tesis-caja/filtering/descripciones_o-z.csv",
+		"/Users/vjdarr/GitHub/tesis-caja/filtering/descriptiones_recuperadas.csv",
+		"/Users/vjdarr/GitHub/tesis-caja/filtering/descripciones_o-z.txt",
+		"/Users/vjdarr/GitHub/tesis-caja/filtering/descripciones_main.csv",
+		"/Users/vjdarr/GitHub/tesis-caja/filtering/recover_elektra.py",
+		"/Users/vjdarr/GitHub/tesis-caja/filtering/recover_deadpool.py",
+		"/Users/vjdarr/GitHub/tesis-caja/filtering/recover_cyclops.py",
+		"/Users/vjdarr/GitHub/tesis-caja/filtering/recover_batman.py",
+		"/Users/vjdarr/GitHub/tesis-caja/filtering/recover_aquaman.py",
+		"/Users/vjdarr/Google Drive/01_descrip.txt",
+		"/Users/vjdarr/Google Drive/02_descrip.txt",
+		"/Users/vjdarr/Google Drive/03_descrip.txt",
+		"/Users/vjdarr/Google Drive/04_descrip.txt",
+		"/Users/vjdarr/GitHub/tesis-caja/filtering/recover_spiderman.py",
+		"/Users/vjdarr/GitHub/tesis-caja/filtering/recover_superman.py",
+		"/Users/vjdarr/GitHub/tesis-caja/filtering/filtro1.py",
+		"/Users/vjdarr/GitHub/tesis-caja/filtering/tweepy_test.py",
+		"/Users/vjdarr/Google Drive/descripciones_o-z.txt",
+		"/Users/vjdarr/GitHub/tesis-caja/filtering/descripciones_obtenidas.txt",
+		"/Users/vjdarr/GitHub/tesis-caja/filtering/description.txt",
+		"/Users/vjdarr/Google Drive/MADIC/Tesis/Eventos/Uber/Preparación/Depuración/code/daemon2/biodaemon.py",
+		"/Users/vjdarr/Google Drive/MADIC/Tesis/Eventos/Uber/Preparación/Depuración/code/daemon/bios_server.txt",
+		"/Users/vjdarr/Google Drive/MADIC/Tesis/Eventos/Uber/Preparación/Depuración/code/daemon/bios_original.txt",
+		"/Users/vjdarr/Google Drive/MADIC/Tesis/Eventos/Uber/Preparación/Depuración/code/daemon/bios.txt",
+		"/Users/vjdarr/Google Drive/MADIC/Tesis/Eventos/Uber/Preparación/Depuración/code/daemon/biodaemon.py",
+		"/Users/vjdarr/Google Drive/MADIC/Tesis/Eventos/Uber/Preparación/Depuración/code/daemon/result.txt",
+		"/Users/vjdarr/Google Drive/MADIC/Tesis/Eventos/Uber/Preparación/Depuración/code/daemon/log.log",
+		"/Users/vjdarr/Google Drive/MADIC/Tesis/Eventos/Uber/Preparación/Depuración/code/daemon/get_twitter_bios.sh",
+		"/Users/vjdarr/Google Drive/MADIC/Tesis/Eventos/Uber/Preparación/Depuración/code/daemon/Connection.py",
+		"/Users/vjdarr/Google Drive/MADIC/Tesis/Eventos/Uber/Preparación/Depuración/code/daemon/Connection.pyc",
+		"/Users/vjdarr/Google Drive/MADIC/Tesis/Eventos/Uber/Visualización/D3/Interacciones completas/data/tweets_mx.json",
+		"/Users/vjdarr/Downloads/result.csv",
+		"/Users/vjdarr/Google Drive/MADIC/Tesis/Eventos/Uber/Preparación/Base/02 Uber_5Jul-18Jul_modified.csv",
+		"/Users/vjdarr/Google Drive/MADIC/Tesis/Eventos/Uber/Preparación/Base/prueba_modified.csv",
+		"/Users/vjdarr/Google Drive/MADIC/Tesis/Eventos/Uber/Visualización/D3/Interacciones completas/data/tweets_mx_0.json",
+		"/Applications/MAMP/htdocs/d3/index.php",
+		"/Applications/MAMP/htdocs/index.php",
+		"/Users/vjdarr/Desktop/salida_csv_uber/uber_inter_noauto_noanec_MX.csv",
+		"/Users/vjdarr/Google Drive/MADIC/Tesis/Eventos/Uber/Preparación/Base/prueba.csv",
+		"/Users/vjdarr/Desktop/time",
+		"/Users/vjdarr/Google Drive/MADIC/Tesis/Eventos/Uber/Visualización/D3/Interacciones completas/js/code.js",
+		"/Users/vjdarr/Google Drive/MADIC/Tesis/Eventos/Uber/Preparación/Base/uber.csv",
+		"/Users/vjdarr/Google Drive/MADIC/Tesis/Eventos/Uber/Preparación/Base/uber_.csv",
+		"/Users/vjdarr/Google Drive/MADIC/Tesis/Eventos/Uber/Preparación/Base/uber_part1.csv",
+		"/Users/vjdarr/Google Drive/MADIC/Tesis/Eventos/Uber/Preparación/Base/Uber_5Jul-18Jul_part1.csv",
+		"/Users/vjdarr/Google Drive/MADIC/Tesis/Eventos/Uber/uber_interact_noauto-anecd.csv",
+		"/Users/vjdarr/Google Drive/MADIC/Tesis/Eventos/Uber/uber_interact_noauto-noanecd.csv",
+		"/Users/vjdarr/GitHub/gourmet-card/dev/prod/write.php",
+		"/Users/vjdarr/GitHub/gourmet-card/dev/scss/_structure.scss",
+		"/Users/vjdarr/GitHub/gourmet-card/dev/prod/index.php",
+		"/Users/vjdarr/GitHub/gourmet-card/dev/prod/basic.html",
+		"/Users/vjdarr/GitHub/gourmet-card/dev/prod/dump.php",
+		"/Users/vjdarr/Library/Caches/Cleanup At Startup/Transmit/E4E2966E-162F-46FC-9D2F-34CFEA951604/page-servcont.php",
+		"/Users/vjdarr/Library/Caches/Cleanup At Startup/Transmit/69E75EE0-C473-4722-83FA-AB3EFA5C3698/page-auto.php",
+		"/Users/vjdarr/Library/Caches/Cleanup At Startup/Transmit/6B04770C-4F1A-45A4-8D6F-52B7B94F6001/page-empresas.php",
+		"/C/Users/Jorge/AppData/Local/Temp/fz3temp-1/header.php",
+		"/C/Users/Jorge/Documents/GitHub/gourmet-card/dev/prod/index.php",
+		"/C/Users/Jorge/Documents/GitHub/gourmet-card/dev/scss/_structure.scss",
+		"/C/Users/Jorge/Downloads/modernizr-custom.js",
+		"/C/Users/Jorge/Documents/GitHub/gourmet-card/dev/javascript/actions.js",
+		"/C/Users/Jorge/AppData/Local/Temp/fz3temp-1/dump.php",
+		"/C/Users/Jorge/AppData/Local/Temp/fz3temp-1/index.php",
+		"/C/Users/Jorge/Documents/GitHub/gourmet-card/dev/prod/write.php",
+		"/C/Users/Jorge/AppData/Local/Temp/fz3temp-1/write.php",
+		"/C/Users/Jorge/AppData/Local/Temp/fz3temp-1/footer.php",
+		"/C/Users/Jorge/AppData/Local/Temp/fz3temp-1/page-auto.php",
+		"/C/Users/Jorge/Documents/GitHub/gourmet-card/dev/prod/dump.php",
+		"/C/Users/Jorge/Documents/Heroku/vmasideas/lady_card/index.php",
+		"/C/Users/Jorge/Documents/GitHub/formulario_rp/dev/prod/write.php",
+		"/C/Users/Jorge/AppData/Local/Temp/fz3temp-1/promociones.php",
+		"/C/Users/Jorge/Downloads/AdfReaultPuebla.xml",
+		"/C/Users/Jorge/AppData/Local/Temp/fz3temp-1/card_thumb.jpg",
+		"/C/Users/Jorge/AppData/Local/Temp/fz3temp-1/card.jpg",
+		"/C/Users/Jorge/AppData/Local/Temp/fz3temp-1/.htaccess",
+		"/C/Users/Jorge/Documents/GitHub/gourmet-card/dev/scss/_fonts.scss",
+		"/C/Users/Jorge/Documents/GitHub/formulario_rp/dev/prod/index.php",
+		"/C/Users/Jorge/Documents/GitHub/formulario_rp/dev/scss/_structure.scss",
+		"/C/Users/Jorge/Google Drive/MADIC/Tesis/Actores/División/Retweets_Gephi/Gephi Experiments/botsynobots_excel.csv",
+		"/C/Users/Jorge/Desktop/gephi.conf",
+		"/C/Users/Jorge/Google Drive/MADIC/Tesis/Actores/División/Code/search.py",
+		"/C/Users/Jorge/Google Drive/MADIC/Tesis/Actores/División/Code/base_destroy.py",
+		"/C/Users/Jorge/Google Drive/MADIC/Tesis/Actores/División/Code/parsing.py",
+		"/C/Users/Jorge/Google Drive/MADIC/Tesis/Actores/División/Code/tweepy_test.py",
+		"/C/Users/Jorge/Google Drive/MADIC/Tesis/Actores/División/Code/Output/tweets_que_incluyen_a/lista_tradicionales_en_botsynobots.csv",
+		"/C/Users/Jorge/Google Drive/MADIC/Tesis/Actores/División/Code/Output/tweets_que_incluyen_a/lista_politicos_en_botsynobots.csv",
+		"/C/Users/Jorge/Google Drive/MADIC/Tesis/Actores/División/Code/Output/tweets_que_incluyen_a/lista_digitales_en_botsynobots.csv",
+		"/C/Users/Jorge/Google Drive/MADIC/Tesis/Actores/División/Code/Output/tweets_que_incluyen_a/lista_gobierno_en_botsynobots.csv",
+		"/C/Users/Jorge/Google Drive/MADIC/Tesis/Actores/División/Code/Output/tweets_que_incluyen_a/lista_periodistas_en_botsynobots.csv",
+		"/C/Users/Jorge/Documents/Heroku/vmasideas/lady_card/folio.php",
+		"/C/Users/Jorge/Documents/GitHub/gourmet-card/dev/scss/base.scss",
+		"/C/Users/Jorge/Documents/GitHub/gourmet-card/dev/prod/css/style.css",
+		"/C/Users/Jorge/Documents/GitHub/gourmet-card/dev/prod/js/actions.min.js",
+		"/C/Users/Jorge/Documents/GitHub/gourmet-card/dev/scss/_desktop.scss",
+		"/C/Users/Jorge/Documents/GitHub/gourmet-card/dev/scss/_tablet.scss",
+		"/C/Users/Jorge/Documents/GitHub/gourmet-card/dev/prod/export.php",
+		"/C/Users/Jorge/Google Drive/MADIC/Tesis/Actores/División/Code/Output/tweets_que_incluyen_a/retweets/Retweets_for_lista_tradicionales_en_botsynobots.csv",
+		"/C/Users/Jorge/Google Drive/MADIC/Tesis/Actores/División/Code/Output/tweets_que_incluyen_a/retweets/Retweets_for_lista_politicos_en_botsynobots.csv",
+		"/C/Users/Jorge/Google Drive/MADIC/Tesis/Actores/División/Code/Output/tweets_que_incluyen_a/retweets/Retweets_for_lista_periodistas_en_botsynobots.csv",
+		"/C/Users/Jorge/Google Drive/MADIC/Tesis/Actores/División/Code/Output/tweets_que_incluyen_a/retweets/Retweets_for_lista_digitales_en_botsynobots.csv",
+		"/C/Users/Jorge/Google Drive/MADIC/Tesis/Actores/División/Code/Output/tweets_que_incluyen_a/retweets/Retweets_for_lista_gobierno_en_botsynobots.csv",
+		"/C/Users/Jorge/Desktop/Adobe/Crack-Windows/install.txt",
+		"/C/Users/Jorge/Desktop/Adobe/Adobe Illustrator CC 17.0.1/Update Management Tool 7.0/readme.txt",
+		"/C/Windows/System32/drivers/etc/hosts",
+		"/C/Program Files/Adobe/Adobe Illustrator CC 2015/Support Files/Contents/Windows/AMT/application.xml",
+		"/C/Users/Jorge/Desktop/CRACK/ADOBE_CC_KEYGEN_WIN_MACOSX-XFORCE/ADOBE_CC_KEYGEN_WIN_MACOSX-XFORCE/Crack-Windows/install.txt",
+		"/C/Users/Jorge/Google Drive/MADIC/Trimestre 04/Gephi Experiments/actores_colors.csv",
+		"/C/Users/Jorge/Google Drive/MADIC/Trimestre 04/Gephi Experiments/retuit_text.csv",
+		"/C/Users/Jorge/Downloads/sitemap.xml",
+		"/C/Users/Jorge/Google Drive/MADIC/Trimestre 04/Gephi Experiments/all_retweets.csv",
+		"/C/Users/Jorge/Desktop/correos_encuesta.txt",
+		"/C/Users/Jorge/Google Drive/MADIC/Tesis/Actores/División/Retweets_Gephi/VIZ/actores_completo.csv",
+		"/C/Users/Jorge/Google Drive/MADIC/Trimestre 04/Gephi Experiments/actores_completo.csv"
+	],
+	"find":
+	{
+		"height": 23.0
+	},
+	"find_in_files":
+	{
+		"height": 138.0,
+		"where_history":
+		[
+			"<open files>",
+			"<current file>",
+			"C:\\Users\\Jorge\\Documents\\GitHub\\gourmet-card\\dev\\scss",
+			"<current file>",
+			"C:\\Users\\Jorge\\Documents\\GitHub\\rp-responsive\\dev\\scss",
+			"C:\\Users\\Jorge\\Documents\\GitHub\\rp-responsive\\dev\\prod",
+			"C:\\Users\\Jorge\\Documents\\GitHub\\rp-responsive\\dev\\scss"
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			" ",
+			"politico",
+			"Deadpool",
+			"Spiderman",
+			"Cíclope",
+			"Superman",
+			"durmiendo",
+			"durmiendo zZzZzZ",
+			"sopitas",
+			"Vhan7",
+			"venom231",
+			"\"",
+			"api.",
+			"original",
+			"0001Angel",
+			"sh",
+			"from_user_id_str",
+			"from_user",
+			"e+",
+			"NaN",
+			"\"nan\"",
+			"NaN",
+			"04/06/2015",
+			"05/06/2015",
+			"06/06/2015",
+			"07/06/2015",
+			"/",
+			"time",
+			"badrow",
+			",,,,,,,,,,,,,,\n",
+			"¿",
+			"kary",
+			"utf",
+			"card",
+			"cardId.",
+			"cardid",
+			");",
+			"basic",
+			"MsgHTML",
+			"_usuario",
+			"rutaCard",
+			"$data['",
+			",",
+			".csv",
+			";'",
+			";",
+			"csv",
+			"user",
+			"gdf",
+			"datos[",
+			"';\n",
+			"$fecha_completa",
+			"fecha_completa",
+			"$datos[9]",
+			"$datos[8]",
+			"$datos[7]",
+			"$datos[6]",
+			"$datos[5]",
+			"$datos[4]",
+			"$datos[3]",
+			"$datos[2]",
+			"$datos[1]",
+			"id=\"fecha-",
+			":'",
+			"$datos[",
+			"vmasonline@",
+			"alebrije",
+			"$datos[",
+			"label",
+			"react",
+			"d-m-Y",
+			"d/m/Y",
+			"tel",
+			"src=\"js/",
+			"src=\"js",
+			"date",
+			"' },",
+			"vigencia",
+			"thumbnailThis",
+			"c_vig",
+			"thumbnailThis",
+			"c_nombr",
+			"nombre",
+			"karyn@vmasideas.com",
+			"><i class=\"fa",
+			"Ú",
+			"Ó",
+			"Í",
+			"É",
+			"ú",
+			"ó",
+			"í",
+			"é",
+			"Á",
+			"á",
+			"_thumb",
+			"cliente",
+			"datos[7",
+			"$correo",
+			"$address",
+			"court",
+			"thanks",
+			"address2",
+			"email_body",
+			"courtyard",
+			"@courtyardpuebla",
+			"Lady Card",
+			"date",
+			"15",
+			"$c_name",
+			"$lan",
+			"$fin",
+			"477",
+			"thumbnailThis",
+			"Ú",
+			"Ó",
+			"Í",
+			"É",
+			"Á",
+			"ú",
+			"ó",
+			"í",
+			"é",
+			"á",
+			"<img src=\"\"",
+			"h2",
+			"<br>",
+			"submit"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"\"null\"",
+			"&Uacute;",
+			"&Oacute;",
+			"&Iacute;",
+			"&Eacute;",
+			"&uacute;",
+			"&oacute;",
+			"&iacute;",
+			"&eacute;",
+			"&Aacute;",
+			"&aacute;",
+			"&Uacute;",
+			"&Oacute;",
+			"&Iacute;",
+			"&Eacute;",
+			"&Aacute;",
+			"&uacute;",
+			"&oacute;",
+			"&iacute;",
+			"&eacute;",
+			"&aacute;",
+			"$RenaultLifeCyL",
+			"$RenaultLifeCyR",
+			"$RenaultLifeR",
+			"$icons"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 23.0
+	},
+	"input":
+	{
+		"height": 43.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "tesis-caja.sublime-project",
+	"replace":
+	{
+		"height": 42.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 204.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
