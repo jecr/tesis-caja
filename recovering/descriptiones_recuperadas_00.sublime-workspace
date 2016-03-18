@@ -1,0 +1,792 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"usu",
+				"usuario_clasificado	forstmt"
+			],
+			[
+				"usua",
+				"usuario_clasificado	forstmt"
+			],
+			[
+				"clas",
+				"clasificados	statement"
+			],
+			[
+				"try",
+				"try	Try/Except"
+			],
+			[
+				"con",
+				"console"
+			],
+			[
+				"rt",
+				"rt_user"
+			],
+			[
+				"fr",
+				"from_user"
+			],
+			[
+				"m",
+				"Mentions"
+			],
+			[
+				"fun",
+				"function"
+			],
+			[
+				"wid",
+				"width"
+			],
+			[
+				"ech",
+				"echo"
+			],
+			[
+				"bac",
+				"background"
+			],
+			[
+				"rut",
+				"rutaCard"
+			],
+			[
+				"c_",
+				"c_width"
+			],
+			[
+				"font",
+				"font-size"
+			],
+			[
+				"pad",
+				"padding"
+			],
+			[
+				"bord",
+				"border-box"
+			],
+			[
+				"ba",
+				"background"
+			],
+			[
+				"no",
+				"no-repeat"
+			],
+			[
+				"mar",
+				"margin-bottom"
+			],
+			[
+				"fon",
+				"font-size"
+			],
+			[
+				"back",
+				"background-size"
+			],
+			[
+				"tex",
+				"text-indent"
+			],
+			[
+				"te",
+				"text-align"
+			],
+			[
+				"b",
+				"block"
+			],
+			[
+				"mari",
+				"margin-top"
+			],
+			[
+				"marg",
+				"margin"
+			],
+			[
+				"bor",
+				"border"
+			],
+			[
+				"da",
+				"datos"
+			],
+			[
+				"borde",
+				"border-box"
+			],
+			[
+				"inl",
+				"inline-block"
+			],
+			[
+				"email",
+				"email_body"
+			],
+			[
+				"err",
+				"errorString"
+			],
+			[
+				"alph",
+				"alpha_numeric"
+			],
+			[
+				"arra",
+				"array"
+			],
+			[
+				"print",
+				"print_r"
+			],
+			[
+				"in",
+				"inline-block"
+			],
+			[
+				"date",
+				"date_format"
+			],
+			[
+				"el",
+				"elchild"
+			],
+			[
+				"sl",
+				"slideToggle"
+			],
+			[
+				"max",
+				"max-width"
+			],
+			[
+				"t",
+				"text-top"
+			],
+			[
+				"cont",
+				"cont_preg"
+			],
+			[
+				"resul",
+				"resultados"
+			],
+			[
+				"pregun",
+				"preguntas"
+			],
+			[
+				"mysql_fiel",
+				"mysql_field_name"
+			],
+			[
+				"for",
+				"foreach	foreach …"
+			],
+			[
+				"_",
+				"_POST"
+			],
+			[
+				"ac",
+				"action	Attr"
+			],
+			[
+				"bore",
+				"border-box"
+			],
+			[
+				"min",
+				"min-width"
+			],
+			[
+				"RE",
+				"RenaultLifeB"
+			],
+			[
+				"RFE",
+				"RenaultLifeL"
+			],
+			[
+				"inlin",
+				"inline-block"
+			],
+			[
+				"margin",
+				"margin"
+			],
+			[
+				"ur",
+				"url"
+			],
+			[
+				"fuen",
+				"fuente2"
+			],
+			[
+				"wi",
+				"width"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 588.0,
+		"last_filter": "Package Control: ",
+		"selected_items":
+		[
+			[
+				"Package Control: ",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 600.0
+	},
+	"console":
+	{
+		"height": 186.0,
+		"history":
+		[
+			"import urllib.request,os,hashlib; h = '2915d1851351e5ee549c20394736b442' + '8bc59f460fa1548d1514676163dafc88'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/C/Users/Jorge/Google Drive/MADIC/Tesis/Eventos/Uber/Visualización/Gephi/Divididos/tipos_interaccion/retweet/29-31/usuarios_retweets_29-31.csv",
+		"/C/Users/Jorge/Google Drive/MADIC/Tesis/Eventos/Uber/Visualización/Gephi/Divididos/tipos_interaccion/retweet/15-17/usuarios_retweets_15-17.csv",
+		"/C/Users/Jorge/Google Drive/MADIC/Tesis/Eventos/Uber/Visualización/Gephi/Divididos/tipos_interaccion/reply/29-31/usuarios_replies_29-31.csv",
+		"/C/Users/Jorge/Google Drive/MADIC/Tesis/Eventos/Uber/Visualización/Gephi/Divididos/tipos_interaccion/reply/15-17/usuarios_replies_15-17.csv",
+		"/C/Users/Jorge/Google Drive/MADIC/Tesis/Eventos/Uber/Visualización/Gephi/Divididos/tipos_interaccion/mention/29-31/usuarios_menciones_29-31.csv",
+		"/C/Users/Jorge/Google Drive/MADIC/Tesis/Eventos/Uber/Visualización/Gephi/Divididos/tipos_interaccion/mention/15-17/usuarios_menciones_15-17.csv",
+		"/C/Users/Jorge/Google Drive/MADIC/Tesis/Eventos/Uber/Visualización/Gephi/Divididos/periodos/29-31/usuarios_29-31.csv",
+		"/C/Users/Jorge/Google Drive/MADIC/Tesis/Eventos/Uber/Visualización/Gephi/Divididos/periodos/29-31/dias/31/usuarios_31.csv",
+		"/C/Users/Jorge/Google Drive/MADIC/Tesis/Eventos/Uber/Visualización/Gephi/Divididos/periodos/29-31/dias/30/usuarios_30.csv",
+		"/C/Users/Jorge/Google Drive/MADIC/Tesis/Eventos/Uber/Visualización/Gephi/Divididos/periodos/29-31/dias/29/usuarios_29.csv",
+		"/C/Users/Jorge/Google Drive/MADIC/Tesis/Eventos/Uber/Visualización/Gephi/Divididos/periodos/15-17/usuarios_15-17.csv",
+		"/C/Users/Jorge/Google Drive/MADIC/Tesis/Eventos/Uber/Visualización/Gephi/Divididos/periodos/15-17/dias/17/usuarios_17.csv",
+		"/C/Users/Jorge/Google Drive/MADIC/Tesis/Eventos/Uber/Visualización/Gephi/Divididos/periodos/15-17/dias/16/usuarios_16.csv",
+		"/C/Users/Jorge/Google Drive/MADIC/Tesis/Eventos/Uber/Visualización/Gephi/Divididos/periodos/15-17/dias/15/usuarios_15.csv",
+		"/C/Users/Jorge/Google Drive/MADIC/Tesis/Eventos/Uber/Preparación/Depuración/OUTPUT/inter_noauto_noanec_mx.csv",
+		"/C/Users/Jorge/Google Drive/MADIC/Tesis/Eventos/Uber/Visualización/Gephi/Divididos/tiempo/15-17_timeTest.csv",
+		"/C/Users/Jorge/Downloads/EasyChair event schedule for CTR 2016-authors.ics",
+		"/C/Program Files (x86)/Gephi-0.8.2/etc/gephi.conf",
+		"/C/Users/Jorge/Desktop/gephi.conf",
+		"/C/Users/Jorge/Google Drive/MADIC/Tesis/Eventos/Uber/Preparación/Depuración/LISTAS/usuarios_MEDIOS.txt",
+		"/C/Users/Jorge/Google Drive/MADIC/Tesis/Eventos/Uber/Preparación/Depuración/clasificacion_usuarios/indexes/index_POLITICOs.txt",
+		"/C/Users/Jorge/Google Drive/MADIC/Tesis/Eventos/Uber/Preparación/Depuración/clasificacion_usuarios/indexes/index_MEDIOS.txt",
+		"/C/Users/Jorge/Google Drive/MADIC/Tesis/Eventos/Uber/Preparación/Depuración/actors/medios/bios_MEDIOS_lista_periodistas.txt",
+		"/C/Users/Jorge/Google Drive/MADIC/Tesis/Eventos/Uber/Preparación/Depuración/actors/list/POLITICO_lista_politicos_2-2.csv",
+		"/C/Users/Jorge/Google Drive/MADIC/Tesis/Eventos/Uber/Preparación/Depuración/actors/list/POLITICO_lista_politicos_2.csv",
+		"/C/Users/Jorge/Google Drive/MADIC/Tesis/Eventos/Uber/Preparación/Depuración/debug.percent.csv",
+		"/C/Users/Jorge/Google Drive/MADIC/Tesis/Eventos/Uber/Preparación/Depuración/campos.json",
+		"/C/Users/Jorge/Google Drive/MADIC/Tesis/Eventos/Uber/Preparación/Depuración/code/output/fechas_long_inter_noauto_noanec_MX.json",
+		"/C/Users/Jorge/Google Drive/MADIC/Tesis/Eventos/Uber/Preparación/Depuración/code/output/inter_noauto_noanec_mx.csv",
+		"/C/Users/Jorge/Google Drive/MADIC/Tesis/Eventos/Uber/Preparación/Depuración/code/actors/clasificacion_usuarios/indexes/index_POLITICOs.txt",
+		"/C/Users/Jorge/Google Drive/MADIC/Tesis/Eventos/Uber/Preparación/Depuración/code/actors/clasificacion_usuarios/indexes/index_MEDIOS.txt",
+		"/C/Users/Jorge/Desktop/axtel.txt",
+		"/C/Users/Jorge/Google Drive/MADIC/Tesis/Eventos/Uber/Preparación/Depuración/code/output/inter_noauto_noanec_nomx.csv",
+		"/C/Users/Jorge/Google Drive/MADIC/Tesis/Eventos/Uber/Visualización/D3/Interacciones completas/data/tweets_mx_15-17.json",
+		"/C/Users/Jorge/Google Drive/MADIC/Tesis/Eventos/Uber/Visualización/D3/Interacciones completas/data/tweets_mx_29-31.json",
+		"/C/Users/Jorge/Documents/GitHub/tesis_d3/prod/js/code.js",
+		"/C/Users/Jorge/Documents/GitHub/tesis_d3/prod/data/tweets_mx.json",
+		"/C/Users/Jorge/Documents/GitHub/tesis_d3/prod/data/tweets_mx_29-31.json",
+		"/C/Users/Jorge/Google Drive/MADIC/Tesis/Eventos/Uber/Visualización/Gephi/Divididos/periodos/15-17/dias/15/uber_15.csv",
+		"/C/Users/Jorge/Downloads/fechas_long_inter_noauto_noanec_MX.json",
+		"/C/Users/Jorge/Google Drive/MADIC/Tesis/Eventos/Uber/Preparación/Listas/politico-historico.txt",
+		"/C/Users/Jorge/Google Drive/MADIC/Tesis/Eventos/Uber/Preparación/Listas/medios-historico.txt",
+		"/C/Users/Jorge/Google Drive/MADIC/Tesis/Eventos/Uber/Visualización/Gephi/Divididos/periodos/29-31/dias/31/uber_gephi_31.csv",
+		"/C/Users/Jorge/Google Drive/MADIC/Tesis/Eventos/Uber/Visualización/Gephi/Divididos/periodos/29-31/dias/31/users.txt",
+		"/C/Users/Jorge/Google Drive/MADIC/Tesis/Eventos/Uber/Visualización/Gephi/Divididos/periodos/29-31/dias/30/users.txt",
+		"/C/Users/Jorge/Google Drive/MADIC/Tesis/Eventos/Uber/Visualización/Gephi/Divididos/periodos/29-31/dias/30/uber_gephi_30.csv",
+		"/C/Users/Jorge/Google Drive/MADIC/Tesis/Eventos/Uber/Visualización/Gephi/Divididos/periodos/29-31/dias/29/uber_gephi_29.csv",
+		"/C/Users/Jorge/Google Drive/MADIC/Tesis/Eventos/Uber/Visualización/Gephi/Divididos/periodos/29-31/dias/29/users.txt",
+		"/C/Users/Jorge/Google Drive/MADIC/Tesis/Eventos/Uber/Visualización/Gephi/Divididos/periodos/15-17/dias/17/uber_gephi_17.csv",
+		"/C/Users/Jorge/Google Drive/MADIC/Tesis/Eventos/Uber/Visualización/Gephi/Divididos/periodos/15-17/dias/17/users.txt",
+		"/C/Users/Jorge/Google Drive/MADIC/Tesis/Eventos/Uber/Visualización/Gephi/Divididos/periodos/15-17/dias/16/uber_gephi_16.csv",
+		"/C/Users/Jorge/Google Drive/MADIC/Tesis/Eventos/Uber/Visualización/Gephi/Divididos/periodos/15-17/dias/16/users.txt",
+		"/C/Users/Jorge/Google Drive/MADIC/Tesis/Eventos/Uber/Visualización/Gephi/Divididos/periodos/15-17/dias/15/uber_gephi_15.csv",
+		"/C/Users/Jorge/Google Drive/MADIC/Tesis/Eventos/Uber/Visualización/Gephi/Divididos/periodos/15-17/dias/15/users.txt",
+		"/C/Users/Jorge/Google Drive/MADIC/Tesis/Eventos/Uber/Visualización/Gephi/Divididos/periodos/15-17/dias/uber_gephi_17.csv",
+		"/C/Users/Jorge/Google Drive/MADIC/Tesis/Eventos/Uber/Visualización/Gephi/Divididos/periodos/29-31/uber_gephi_29-31.csv",
+		"/C/Users/Jorge/Google Drive/MADIC/Tesis/Eventos/Uber/Visualización/Gephi/Divididos/periodos/29-31/users.txt",
+		"/C/Users/Jorge/Google Drive/MADIC/Tesis/Eventos/Uber/Visualización/Gephi/Divididos/periodos/15-17/uber_gephi_15-17.csv",
+		"/C/Users/Jorge/Google Drive/MADIC/Tesis/Eventos/Uber/Visualización/Gephi/Divididos/periodos/15-17/users.txt",
+		"/C/Users/Jorge/Google Drive/MADIC/Tesis/Eventos/Uber/Visualización/Gephi/uber_gephi_15-17.csv",
+		"/C/Users/Jorge/Google Drive/MADIC/Tesis/Eventos/Uber/Visualización/Gephi/uber_gephi_29-31.csv",
+		"/C/Users/Jorge/Google Drive/MADIC/Tesis/Eventos/Uber/Visualización/Gephi/Divididos/periodos/15-17/dias/uber_gephi_15-17.csv",
+		"/C/Users/Jorge/Google Drive/MADIC/Tesis/Eventos/Uber/Visualización/Gephi/usuarios_.csv",
+		"/C/Users/Jorge/Google Drive/MADIC/Tesis/Eventos/Uber/Visualización/Gephi/classify.py",
+		"/C/Users/Jorge/Google Drive/MADIC/Tesis/Eventos/Uber/Visualización/Gephi/Divididos/tipos_interaccion/reply/uber_replies_29-31.csv",
+		"/C/Users/Jorge/Google Drive/MADIC/Tesis/Eventos/Uber/Visualización/Gephi/Divididos/tipos_interaccion/reply/users.txt",
+		"/C/Users/Jorge/Google Drive/MADIC/Tesis/Eventos/Uber/Visualización/Gephi/Divididos/tipos_interaccion/reply/uber_replies_15-17.csv",
+		"/C/Users/Jorge/Google Drive/MADIC/Tesis/Eventos/Uber/Visualización/Gephi/usuarios_clasificados.csv",
+		"/C/Users/Jorge/Google Drive/MADIC/Tesis/Eventos/Uber/Visualización/Gephi/Divididos/tipos_interaccion/retweet/usuarios_retweets_15-17.csv",
+		"/C/Users/Jorge/Google Drive/MADIC/Tesis/Eventos/Uber/Visualización/Gephi/Divididos/tipos_interaccion/reply/uber_gephi_15-17.csv",
+		"/C/Users/Jorge/Google Drive/MADIC/Tesis/Eventos/Uber/Visualización/Gephi/Divididos/tipos_interaccion/retweet/uber_retweets_29-31.csv",
+		"/C/Users/Jorge/Google Drive/MADIC/Tesis/Eventos/Uber/Visualización/Gephi/Divididos/tipos_interaccion/retweet/users.txt",
+		"/C/Users/Jorge/Google Drive/MADIC/Tesis/Eventos/Uber/Preparación/Depuración/filtro1.py",
+		"/C/Users/Jorge/Google Drive/MADIC/Tesis/Eventos/Uber/Visualización/Gephi/Divididos/tipos_interaccion/reply/uber_retweets_15-17.csv",
+		"/C/Users/Jorge/Documents/GitHub/tesis-caja/recovering/recover_aquaman.py",
+		"/C/Users/Jorge/Documents/GitHub/tesis-caja/recovering/recover_elektra.py",
+		"/C/Users/Jorge/Google Drive/MADIC/Tesis/Eventos/Uber/Preparación/Depuración/code/output/descripciones_analisis/descripciones_recuperadas.txt",
+		"/C/Users/Jorge/Google Drive/MADIC/Tesis/Eventos/Uber/Preparación/Depuración/code/actors/clasificacion_usuarios/bios_users_mx_interact.txt",
+		"/C/Users/Jorge/Google Drive/MADIC/Tesis/Eventos/Uber/Visualización/Gephi/users_gephi.csv",
+		"/C/Users/Jorge/Google Drive/MADIC/Tesis/Eventos/Uber/Visualización/Gephi/Divididos/tipos_interaccion/mention/usuarios_menciones_29-31.csv",
+		"/C/Users/Jorge/Google Drive/MADIC/Tesis/Eventos/Uber/Visualización/Gephi/Divididos/tipos_interaccion/mention/usuarios_menciones_15-17.csv",
+		"/C/Users/Jorge/Google Drive/MADIC/Tesis/Eventos/Uber/Visualización/Gephi/Divididos/tipos_interaccion/mention/uber_menciones_15-17.csv",
+		"/C/Users/Jorge/Google Drive/MADIC/Tesis/Eventos/Uber/Visualización/Gephi/Divididos/tipos_interaccion/mention/uber_gephi_29-31.csv",
+		"/C/Users/Jorge/Google Drive/MADIC/Tesis/Eventos/Uber/Visualización/Gephi/Divididos/tipos_interaccion/mention/users_gephi.csv",
+		"/C/Users/Jorge/Google Drive/MADIC/Tesis/Eventos/Uber/Visualización/Gephi/Divididos/tipos_interaccion/mention/actores.csv",
+		"/C/Users/Jorge/Google Drive/MADIC/Tesis/Eventos/Uber/Visualización/Gephi/Divididos/tipos_interaccion/mention/uber_gephi_15-17.csv",
+		"/C/Program Files (x86)/Gephi-0.9.1/etc/gephi.conf",
+		"/C/Users/Jorge/Google Drive/MADIC/Tesis/Eventos/Uber/Visualización/Gephi/uber_gephi.csv",
+		"/C/Users/Jorge/Google Drive/MADIC/Tesis/Eventos/Uber/Visualización/Gephi/Materiales Previos/inter_noauto_noanec_mx.csv",
+		"/C/Users/Jorge/Google Drive/MADIC/Tesis/Eventos/Uber/Visualización/Gephi/inter_noauto_noanec_mx.csv",
+		"/C/Users/Jorge/Google Drive/MADIC/Tesis/Eventos/Uber/Visualización/Gephi/test.csv",
+		"/C/Users/Jorge/Google Drive/MADIC/Tesis/Eventos/Uber/Visualización/Gephi/users.csv",
+		"/C/Users/Jorge/Google Drive/MADIC/Tesis/Eventos/Uber/Preparación/Depuración/code/output/usuarios_analisis.txt",
+		"/C/Users/Jorge/Google Drive/MADIC/Tesis/Eventos/Uber/Visualización/Gephi/Materiales Previos/usuarios_analisis.txt",
+		"/C/Users/Jorge/Google Drive/MADIC/Tesis/Eventos/Uber/Preparación/Listas/POLITICO_lista_gobierno.csv",
+		"/C/Users/Jorge/Google Drive/MADIC/Tesis/Eventos/Uber/Preparación/Listas/POLITICO_lista_politicos.csv",
+		"/C/Users/Jorge/Google Drive/MADIC/Tesis/Eventos/Uber/Preparación/Listas/MEDIOS_lista_periodistas.csv",
+		"/C/Users/Jorge/Google Drive/MADIC/Tesis/Eventos/Uber/Preparación/Listas/MEDIOS_lista_digitales.csv",
+		"/C/Users/Jorge/Google Drive/MADIC/Tesis/Eventos/Uber/Preparación/Listas/MEDIOS_lista_tradicionales.csv",
+		"/C/Users/Jorge/Google Drive/MADIC/Tesis/Eventos/Uber/Preparación/Listas/descripciones.txt",
+		"/C/Users/Jorge/Google Drive/MADIC/Tesis/Eventos/Uber/Preparación/Depuración/code/actors/list/MEDIOS_lista_tradicionales.csv",
+		"/C/Users/Jorge/Google Drive/MADIC/Tesis/Eventos/Uber/Preparación/Depuración/code/actors/list/MEDIOS_lista_digitales.csv",
+		"/C/Users/Jorge/Google Drive/MADIC/Tesis/Eventos/Uber/Preparación/Depuración/code/actors/list/MEDIOS_lista_periodistas.csv",
+		"/C/Users/Jorge/Google Drive/MADIC/Tesis/Eventos/Uber/Preparación/Depuración/code/actors/list/POLITICO_lista_gobierno.csv",
+		"/C/Users/Jorge/Google Drive/MADIC/Tesis/Eventos/Uber/Preparación/Depuración/code/actors/list/POLITICO_lista_politicos_1.csv",
+		"/C/Users/Jorge/Google Drive/MADIC/Tesis/Eventos/Uber/Preparación/Depuración/code/actors/list/POLITICO_lista_politicos_2.csv",
+		"/C/Users/Jorge/Google Drive/MADIC/Tesis/Eventos/Uber/Preparación/Depuración/code/actors/list/POLITICO_lista_politicos_2-2.csv",
+		"/C/Users/Jorge/Google Drive/MADIC/Tesis/Eventos/Uber/Preparación/Depuración/code/actors/clasificacion_usuarios/user_classify.py",
+		"/C/Users/Jorge/Google Drive/MADIC/Tesis/Eventos/Uber/Preparación/Depuración/code/actors/clasificacion_usuarios/weighted_users.txt",
+		"/C/Users/Jorge/Google Drive/MADIC/Tesis/Eventos/Uber/Preparación/Depuración/code/actors/clasificacion_usuarios/lista_usuarios_MX.txt",
+		"/C/Users/Jorge/Google Drive/MADIC/Tesis/Eventos/Uber/Preparación/Depuración/code/actors/clasificacion_usuarios/no_existen.txt",
+		"/C/Users/Jorge/Google Drive/MADIC/Tesis/Eventos/Uber/Visualización/Gephi/Materiales Previos/clasificados.csv",
+		"/C/Users/Jorge/Google Drive/MADIC/Tesis/Eventos/Uber/Preparación/Depuración/code/actors/clasificacion_usuarios/clasificados.csv",
+		"/C/Users/Jorge/Google Drive/MADIC/Tesis/Eventos/Uber/Preparación/Depuración/code/output/descripciones_analisis/clasificados.csv",
+		"/C/Users/Jorge/Desktop/FechasAnalisis.csv",
+		"/C/Users/Jorge/AppData/Roaming/Sublime Text 3/Packages/User/Preferences.sublime-settings",
+		"/C/Users/Jorge/AppData/Roaming/Sublime Text 3/Packages/Default/Preferences.sublime-settings",
+		"/C/Users/Jorge/Google Drive/MADIC/Tesis/Eventos/Uber/Visualización/Gephi/clasificados.csv",
+		"/C/Users/Jorge/Google Drive/MADIC/Tesis/Eventos/Uber/Visualización/Gephi/usuarios_analisis.txt",
+		"/C/Users/Jorge/Google Drive/descripciones_part/faltantes04.txt",
+		"/C/Users/Jorge/Google Drive/descripciones_part/faltantes03.txt",
+		"/C/Users/Jorge/Google Drive/descripciones_part/faltantes02.txt",
+		"/C/Users/Jorge/Google Drive/descripciones_part/faltantes01.txt",
+		"/C/Users/Jorge/Google Drive/descripciones_part/faltantes00.txt",
+		"/C/Users/Jorge/Google Drive/MADIC/Tesis/Eventos/Uber/Preparación/Depuración/code/output/descripciones_analisis/descs_0-f_parte2.txt",
+		"/C/Users/Jorge/Google Drive/MADIC/Tesis/Eventos/Uber/Preparación/Depuración/code/actors/clasificacion_usuarios/clasificacion_usuarios.csv",
+		"/C/Users/Jorge/Google Drive/MADIC/Tesis/Eventos/Uber/Preparación/Depuración/code/output/descripciones_analisis/descripciones_o-z.txt",
+		"/C/Users/Jorge/Google Drive/MADIC/Tesis/Eventos/Uber/Preparación/Depuración/code/output/descripciones_analisis/descs_g-o_parte2.txt"
+	],
+	"find":
+	{
+		"height": 50.0
+	},
+	"find_in_files":
+	{
+		"height": 138.0,
+		"where_history":
+		[
+			"<open files>",
+			"",
+			"C:\\Users\\Jorge\\Documents\\GitHub\\gourmet-card\\dev\\scss",
+			"<current file>",
+			"C:\\Users\\Jorge\\Documents\\GitHub\\rp-responsive\\dev\\scss",
+			"C:\\Users\\Jorge\\Documents\\GitHub\\rp-responsive\\dev\\prod",
+			"C:\\Users\\Jorge\\Documents\\GitHub\\rp-responsive\\dev\\scss"
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"Skathcon7",
+			"BluRadioCo,",
+			"17/07/2015",
+			",BluRadioCo,",
+			"BluRadioCo",
+			"14:45",
+			",Taxisporapp,",
+			"Taxisporapp",
+			"purospalos",
+			"movilidadjal,ciudadano",
+			"marthadebayle",
+			"isai_tejeda,politico",
+			"pacotitamontes,politico",
+			"votante2012mex,politico",
+			"alexmonj,politico",
+			"gvelascob,politico",
+			"pabloschzm,politico",
+			"licmonicaortiz,politico",
+			"epn_dejadas,politico",
+			"acletomasini,politico",
+			"aleskja,politico",
+			"luisandreub,politico",
+			"conilectri,politico",
+			"cgjavier,politico",
+			"jorgeprzru,politico",
+			"jorgeprzru",
+			"jjlopezh95,politico",
+			"alejan09_ar,politico",
+			"stivencastano,politico",
+			"ericksalalira,politico",
+			"mipuntodevistaa,politico",
+			"pedroverdez,politico",
+			"donmarioherrera,politico",
+			"mabcags,politico",
+			"donporfiriodiaz,politico",
+			"atb65,politico",
+			"alonsoherreraa,politico",
+			"eduardorguez,politico",
+			"hernanporrasm,politico",
+			"elsinuano_,politico",
+			"pulgarebelde,politico",
+			"dmocraenpeligro,politico",
+			"mtroferreyes,politico",
+			"carochb10,politico",
+			"juanfra54m1,politico",
+			"sosaplata,politico",
+			"licfharo,politico",
+			"jhonyeuanayala,politico",
+			"diegodehara,politico",
+			"luzrendonb,politico",
+			"rauldejesuslop,politico",
+			"lisaalanis,ciudadano",
+			"elisaalanis,politico",
+			"pochodiaz,politico",
+			"joseangelgoycoo,politico",
+			"observlegislati,politico",
+			"cparamo77,politico",
+			"susana_bur,politico",
+			"arturoregalado,politico",
+			"oskrrubio1,politico",
+			"jepiba27,politico",
+			"vandinsky,politico",
+			"alfonso1103,politico",
+			"javiermtze,politico",
+			"marce_torres7,politico",
+			"elamoral,politico",
+			"tablitasymas,politico",
+			"ariannaesquive1,politico",
+			"foropoliticodig,politico",
+			"betomillar,politico",
+			"vcarral,politico",
+			"ctmapodaca,politico",
+			"grrconsultores,politico",
+			"rcmultimedios,politico",
+			"eruizhoyestado,politico",
+			"emibeni18,politico",
+			"imeatilano,politico",
+			"cahereman,politico",
+			"lagomet,politico",
+			"lagomet",
+			"deutsher1970cas,politico",
+			"jackrobles66,politico",
+			"clarariveros,politico",
+			"florezm_elena,politico",
+			"carlos_eorozco,politico",
+			"teacaballero,politico",
+			"malamadremx,politico",
+			"l_venegas,politico",
+			"pavker75a,politico",
+			"selmistar,politico",
+			"juanjosebarrien,politico",
+			"gusadosar,politico",
+			"arturoangel20,politico",
+			"danhuerga,politico",
+			"diosdelosgatos,politico",
+			"pseudomona1506,politico",
+			"intamexico,politico",
+			"enriquemedranoi,politico",
+			"molinarq,politico",
+			"arquigon,politico",
+			"romerodeluis,politico",
+			"hectormunguia3,politico",
+			"lpomx,politico",
+			"caheloco70,politico",
+			"raulruizf,politico",
+			"metaemergencia,politico",
+			"kathyssh,politico",
+			"thatizapan,politico",
+			"donan64,politico",
+			"votodeopinion,politico",
+			"puntoneutromex,politico",
+			"nuhucano,politico",
+			"chino_edgar,politico",
+			"coordinadora1dm,politico",
+			"samuelrdelanda,politico",
+			"andreaalfonsor,politico",
+			"grupo_centro,politico",
+			"diodorocs,politico",
+			"fpulido53,politico",
+			"sandravelezf,politico",
+			"sandravelezf",
+			"primerotuimagen,ciudadano",
+			"primerotuimagen",
+			"mbonillao,ciudadano",
+			"vmbonillao,politico",
+			"hectorburgueno,politico",
+			"hectorburgueno",
+			"hectorgu"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"movilidadjal,politico",
+			"isai_tejeda,ciudadano",
+			"pacotitamontes,ciudadano",
+			"votante2012mex,ciudadano",
+			"alexmonj,ciudadano",
+			"gvelascob,ciudadano",
+			"pabloschzm,ciudadano",
+			"licmonicaortiz,ciudadano",
+			"epn_dejadas,ciudadano",
+			"acletomasini,ciudadano",
+			"aleskja,ciudadano",
+			"luisandreub,ciudadano",
+			"conilectri,ciudadano",
+			"cgjavier,ciudadano",
+			"jorgeprzru,ciudadano",
+			"jjlopezh95,ciudadano",
+			"alejan09_ar,ciudadano",
+			"stivencastano,ciudadano",
+			"ericksalalira,ciudadano",
+			"mipuntodevistaa,medio",
+			"pedroverdez,ciudadano",
+			"donmarioherrera,ciudadano",
+			"mabcags,ciudadano",
+			"donporfiriodiaz,ciudadano",
+			"atb65,ciudadano",
+			"alonsoherreraa,ciudadano",
+			"eduardorguez,ciudadano",
+			"hernanporrasm,ciudadano",
+			"elsinuano_,ciudadano",
+			"pulgarebelde,ciudadano",
+			"dmocraenpeligro,ciudadano",
+			"mtroferreyes,ciudadano",
+			"carochb10,ciudadano",
+			"juanfra54m1,ciudadano",
+			"sosaplata,ciudadano",
+			"licfharo,ciudadano",
+			"jhonyeuanayala,ciudadano",
+			"diegodehara,ciudadano",
+			"luzrendonb,ciudadano",
+			"rauldejesuslop,ciudadano",
+			"elisaalanis,medio",
+			"elisaalanis,ciudadano",
+			"pochodiaz,ciudadano",
+			"joseangelgoycoo,ciudadano",
+			"observlegislati,ciudadano",
+			"cparamo77,ciudadano",
+			"susana_bur,ciudadano",
+			"arturoregalado,ciudadano",
+			"oskrrubio1,ciudadano",
+			"jepiba27,ciudadano",
+			"vandinsky,ciudadano",
+			"alfonso1103,ciudadano",
+			"javiermtze,ciudadano",
+			"marce_torres7,ciudadano",
+			"elamoral,ciudadano",
+			"tablitasymas,ciudadano",
+			"ariannaesquive1,ciudadano",
+			"foropoliticodig,medio",
+			"betomillar,medio",
+			"vcarral,ciudadano",
+			"ctmapodaca,ciudadano",
+			"grrconsultores,ciudadano",
+			"rcmultimedios,medio",
+			"eruizhoyestado,medio",
+			"emibeni18,ciudadano",
+			"imeatilano,ciudadano",
+			"cahereman,ciudadano",
+			"lagomet,ciudadano",
+			"deutsher1970cas,ciudadano",
+			"jackrobles66,ciudadano",
+			"clarariveros,medio",
+			"florezm_elena,ciudadano",
+			"carlos_eorozco,ciudadano",
+			"teacaballero,ciudadano",
+			"malamadremx,medio",
+			"l_venegas,ciudadano",
+			"pavker75a,ciudadano",
+			"selmistar,ciudadano",
+			"juanjosebarrien,ciudadano",
+			"gusadosar,ciudadano",
+			"arturoangel20,medio",
+			"danhuerga,ciudadano",
+			"diosdelosgatos,ciudadano",
+			"pseudomona1506,ciudadano",
+			"intamexico,ciudadano",
+			"enriquemedranoi,ciudadano",
+			"molinarq,ciudadano",
+			"arquigon,ciudadano",
+			"romerodeluis,ciudadano",
+			"hectormunguia3,ciudadano",
+			"lpomx,ciudadano",
+			"caheloco70,ciudadano",
+			"raulruizf,ciudadano",
+			"metaemergencia,ciudadano",
+			"kathyssh,ciudadano",
+			"thatizapan,ciudadano",
+			"donan64,ciudadano",
+			"votodeopinion,ciudadano",
+			"puntoneutromex,medio",
+			"nuhucano,ciudadano",
+			"nuhucano,politico",
+			"chino_edgar,ciudadano",
+			"coordinadora1dm,ciudadano",
+			"samuelrdelanda,ciudadano",
+			"andreaalfonsor,ciudadano",
+			"grupo_centro,ciudadano",
+			"diodorocs,ciudadano",
+			"fpulido53,ciudadano",
+			"sandravelezf,medio",
+			"primerotuimagen,medio",
+			"vmbonillao,ciudadano",
+			"hectorburgueno,ciudadano",
+			"rfagoagaf,ciudadano",
+			"econoclasta,ciudadano",
+			"ef_tocho,ciudadano",
+			"cozumelprd,politico",
+			"gobqro,politico",
+			"gobiernodf,politico",
+			"unocero,medio",
+			"lasillarota,medio",
+			"elfinancieromx,medio",
+			"elfinanciero_mx,medio",
+			"soffa_sopitas,ciudadano",
+			"sopitas,medio",
+			"noticiasmvs,medio",
+			"loquenosedijo,medio",
+			"cdmx_semovi,politico",
+			"denunciainveadf,politico"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 23.0
+	},
+	"input":
+	{
+		"height": 43.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "descriptiones_recuperadas_00.sublime-project",
+	"replace":
+	{
+		"height": 42.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 234.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

@@ -21,11 +21,19 @@ api = tweepy.API(auth)
 
 search_term = sys.argv[1]
 
+# Archivo output:
+outputFile = open('output'+search_term+'.txt', 'w')
+
 try:
-    for page in tweepy.Cursor(api.search, q=search_term, rpp=15, result_type="mixed", include_entities="false").pages(2):
+    for page in tweepy.Cursor(api.search, q=search_term, count=100, result_type="mixed", include_entities=True).pages(1):
+        # Consulta el límite restante de consultas
+        data = api.rate_limit_status()
+        remaining = data['resources']['search']['/search/tweets']['remaining']
+        print str(remaining)+' consultas restantes para Búsqueda y recuperación'
+        # Fin consulta de límite
         for tweet in page:
             clean_tweet = tweet.text.encode('utf-8')
             clean_tweet = clean_tweet.replace('\n', '').replace('\r', '')
-            print clean_tweet+'fin_de_tuit\n'
+            outputFile.write(clean_tweet+'\n')
 except tweepy.TweepError as e:
     print e
