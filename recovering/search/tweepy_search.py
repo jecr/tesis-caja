@@ -1,6 +1,7 @@
 # -*- coding: UTF-8 -*-
 import tweepy
 import sys
+import json
 
 consumer_key = 'ZR2SU5TrGKQ2zCbVbyDUw'
 consumer_secret = 'Rcg5Esw9z6z8JdIEfJIp4NBRzgxA3i6ISeCL1mDM'
@@ -25,15 +26,18 @@ search_term = sys.argv[1]
 outputFile = open('output'+search_term+'.txt', 'w')
 
 try:
-    for page in tweepy.Cursor(api.search, q=search_term, count=100, result_type="mixed", include_entities=True).pages(1):
+    for page in tweepy.Cursor(api.search, q=search_term, lang="es", count=100, include_entities=True).pages(100):
         # Consulta el límite restante de consultas
         data = api.rate_limit_status()
         remaining = data['resources']['search']['/search/tweets']['remaining']
         print str(remaining)+' consultas restantes para Búsqueda y recuperación'
         # Fin consulta de límite
         for tweet in page:
-            clean_tweet = tweet.text.encode('utf-8')
-            clean_tweet = clean_tweet.replace('\n', '').replace('\r', '')
-            outputFile.write(clean_tweet+'\n')
+            # clean_tweet = tweet.text.encode('utf-8')
+            clean_tweet = tweet._json
+            # clean_tweet = clean_tweet.replace('\n', '').replace('\r', '')
+            # print(clean_tweet)
+            json.dump(clean_tweet, outputFile, encoding='utf-8')
+            outputFile.write('\n')
 except tweepy.TweepError as e:
     print e
