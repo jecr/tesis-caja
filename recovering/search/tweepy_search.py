@@ -22,34 +22,64 @@ api = tweepy.API(auth)
 #     print tweet.text
 
 search_term = sys.argv[1]
+archivo_tweets = sys.argv[2]
 
-# Archivo output:
-outputFile = open('output'+search_term+'.txt', 'w')
+# Archivo output, abre el archivo para lectura/escritura:
+lecturaInicial = open(archivo_tweets, 'r')
 
-# Consulta el límite restante de consultas
-data = api.rate_limit_status()
-remaining = data['resources']['search']['/search/tweets']['remaining']
-print str(remaining)+' consultas restantes para Búsqueda y recuperación'
-# Fin consulta de límite
+# Crea una lista para almacenar las lineas del archivo
+lista_py = []
+
+for linea in lecturaInicial:
+    lista_py.append(linea)
+
+# Crea un diccionario vacío para almacenar tweets
+dict_tweets = {}
+
+# Vacía el documento para eliminar viejos tuits duplicados
+lecturaInicial.close()
+archivoEscritura = open(archivo_tweets, 'w')
+
+# Itera la lista para encontrar duplicados (Esto no será necesario con búsquedas frescas)
+for element in lista_py:
+    currentJson = json.loads(element)
+    currentKey = currentJson['id']
+    if not dict_tweets.has_key(currentKey):
+        dict_tweets[currentKey] = currentJson
+        archivoEscritura.write(element)
+
+# Imprime el tamaño del diccionario
+print str(len(dict_tweets))+' tweets únicos'
 
 while 1 > 0:
     try:
-        for page in tweepy.Cursor(api.search, q=search_term, lang="es", count=5, include_entities=True).pages(180):
+        for page in tweepy.Cursor(api.search, q=search_term, lang="es", count=50, include_entities=True).pages(61):
+            # Procesamiento de tweets
+            for tweet in page:
+                cleanTweet = json.dumps(tweet._json)
+                jsondTweet = json.loads(cleanTweet)
+                jsondId = jsondTweet['id']
+                if not dict_tweets.has_key(jsondId):
+                    dict_tweets[jsondId] = jsondTweet
+                    archivoEscritura.write(cleanTweet)
+                    archivoEscritura.write('\n')
+            # Fin de procesamiento de tweets
             # Consulta el límite restante de consultas
             data = api.rate_limit_status()
             remaining = data['resources']['search']['/search/tweets']['remaining']
             print str(remaining)+' consultas restantes para Búsqueda y recuperación'
             # Fin consulta de límite
             if remaining < 2:
-                print 'Recuperación durmiendo zZzZzZ'
+                print str(len(dict_tweets))+' tweets únicos'
+                print 'Recuperación durmiendo zZzZzZ '+time.asctime()
                 time.sleep(60*15)
-            # Procesamiento de tweets
-            for tweet in page:
-                clean_tweet = tweet._json
-                json.dump(clean_tweet, outputFile, encoding='utf-8')
-                outputFile.write('\n')
-            # Fin de procesamiento de tweets
+                break
     except Exception, e:
-        if e.message[0]['code'] == 88:
-            print 'Recuperación durmiendo zZzZzZ'
-            time.sleep(60*15)
+        if  hasattr(e, 'response'):
+            if e.response.status_code == 429:
+                print str(len(dict_tweets))+' tweets únicos'
+                print 'Exception: Recuperación durmiendo zZzZzZ '+time.asctime()
+                time.sleep(60*15)
+        else:
+            print e
+            pass
