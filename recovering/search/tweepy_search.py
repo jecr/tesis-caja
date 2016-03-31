@@ -53,7 +53,7 @@ print str(len(dict_tweets))+' tweets únicos'
 
 while 1 > 0:
     try:
-        for page in tweepy.Cursor(api.search, q=search_term, lang="es", count=50, include_entities=True).pages(61):
+        for page in tweepy.Cursor(api.search, q=search_term, lang="es", count=100, include_entities=True).pages(100):
             # Procesamiento de tweets
             for tweet in page:
                 cleanTweet = json.dumps(tweet._json)
@@ -72,14 +72,14 @@ while 1 > 0:
             if remaining < 2:
                 print str(len(dict_tweets))+' tweets únicos'
                 print 'Recuperación durmiendo zZzZzZ '+time.asctime()
-                time.sleep(60*15)
+                time.sleep(60)
                 break
     except Exception, e:
         if  hasattr(e, 'response'):
             if e.response.status_code == 429:
                 print str(len(dict_tweets))+' tweets únicos'
                 print 'Exception: Recuperación durmiendo zZzZzZ '+time.asctime()
-                time.sleep(60*15)
+                time.sleep(60)
         else:
             print e
             pass
