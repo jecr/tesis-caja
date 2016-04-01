@@ -4,6 +4,8 @@ import sys
 import tweepy
 import time
 
+# Instrucción actual: python tweepy_search.py "\"hoy no circula\" OR hoynocircula OR contingenciaambiental OR \"contingencia ambiental\"" hoy_no_circula.txt
+
 consumer_key = 'ZR2SU5TrGKQ2zCbVbyDUw'
 consumer_secret = 'Rcg5Esw9z6z8JdIEfJIp4NBRzgxA3i6ISeCL1mDM'
 
