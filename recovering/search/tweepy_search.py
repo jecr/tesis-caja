@@ -4,30 +4,50 @@ import sys
 import tweepy
 import time
 
-# Instrucción actual: python tweepy_search.py "\"hoy no circula\" OR hoynocircula OR contingenciaambiental OR \"contingencia ambiental\"" hoy_no_circula.txt
+# Diccionario con claves de aplicaciones, es posible elegir una para hacer la recuperación
+twitter_keys = {}
 
-consumer_key = 'ZR2SU5TrGKQ2zCbVbyDUw'
-consumer_secret = 'Rcg5Esw9z6z8JdIEfJIp4NBRzgxA3i6ISeCL1mDM'
+twitter_keys['alfa'] = {}
+twitter_keys['alfa']['c_k'] = '6oJLTuH6Hb5bhoflAkh2EQZTf'
+twitter_keys['alfa']['c_s'] = 'kQh9v4OM4plxLbpBCjkYk54iCTA3F23deJkzDXXCZvIlsmAQKN'
+twitter_keys['alfa']['a_t'] = '108874877-vQqPqkK9afIZYZi89VkHqhvO0UKKO7gafKVi7pMS'
+twitter_keys['alfa']['a_ts'] = 'wkpEye49yW3LuMmBGV82IsasHqprjSU2FMWc59SYe4bJJ'
 
-access_token = '108874877-5N9XRZiRCTiALdKUw7sYhulzNgwFUzZgfeOw03b9'
-access_token_secret = 'ogKVKjkRUie0cfP95zcT2kINVeZrbm1iyxj90dCpVwjFG'
+twitter_keys['bravo'] = {}
+twitter_keys['bravo']['c_k'] = 'X9mFEYo8smhDkSVQRPdkLDPis'
+twitter_keys['bravo']['c_s'] = 'KwUWaBKxm5nslS1xBpByn5w1leYPoR5tAfuVV4JnCCPsyK077F'
+twitter_keys['bravo']['a_t'] = '108874877-FqRfNGmRlsAoOX13umHyCUnLTb8BT9Fn97aL1awa'
+twitter_keys['bravo']['a_ts'] = 'biUkbDcfpD5mJ2r9Cbw1V6UAh9QXipzja2am3OTEGAmWb'
+
+# python tweepy_search.py alfa "\"hoy no circula\" OR hoynocircula OR contingenciaambiental OR \"contingencia ambiental\"" hoy_no_circula.txt
+# python tweepy_search.py bravo "panamapapers OR \"papeles de panama\"" panama_papers.txt
+
+# Selección de aplicación para recuperación
+app_selection = sys.argv[1]
+
+consumer_key = twitter_keys[app_selection]['c_k']
+consumer_secret = twitter_keys[app_selection]['c_s']
+
+access_token = twitter_keys[app_selection]['a_t']
+access_token_secret = twitter_keys[app_selection]['a_ts']
 
 auth = tweepy.OAuthHandler(consumer_key, consumer_secret)
 auth.set_access_token(access_token, access_token_secret)
 
 api = tweepy.API(auth)
 
-# Consigue al usuario
-# user = api.get_user('jorgetuitea')
-# public_tweets = api.user_timeline( user )
-# for tweet in public_tweets:
-#     print tweet.text
-
-search_term = sys.argv[1]
-archivo_tweets = sys.argv[2]
+# Argumentos de invocacón
+search_term = sys.argv[2]
+archivo_tweets = sys.argv[3]
 
 # Archivo output, abre el archivo para lectura/escritura:
-lecturaInicial = open(archivo_tweets, 'r')
+try:
+    # Intenta abrir el archivo para lectura
+    lecturaInicial = open(archivo_tweets, 'r')
+except Exception, e:
+    #Si falla, crea un archivo nuevo
+    print "Archivo no encontrado, creando nuevo..."
+    lecturaInicial = open(archivo_tweets, 'w+')
 
 # Crea una lista para almacenar las lineas del archivo
 lista_py = []
@@ -72,15 +92,15 @@ while 1 > 0:
             print str(remaining)+' consultas restantes para Búsqueda y recuperación'
             # Fin consulta de límite
             if remaining < 2:
-                print str(len(dict_tweets))+' tweets únicos'
-                print 'Recuperación durmiendo zZzZzZ '+time.asctime()
+                print '\n'+str(len(dict_tweets))+' tweets únicos'
+                print 'Alfa durmiendo zZzZzZ '+time.asctime()
                 time.sleep(60)
                 break
     except Exception, e:
         if  hasattr(e, 'response'):
             if e.response.status_code == 429:
-                print str(len(dict_tweets))+' tweets únicos'
-                print 'Exception: Recuperación durmiendo zZzZzZ '+time.asctime()
+                print '\n'+str(len(dict_tweets))+' tweets únicos'
+                print 'Exception: Alfa durmiendo zZzZzZ '+time.asctime()
                 time.sleep(60)
         else:
             print e

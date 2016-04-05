@@ -15,4 +15,4 @@ auth.set_access_token(access_token, access_token_secret)
 
 api = tweepy.API(auth)
 
-print api.get_status(714526020934569984)
+print api.get_status(717011297079062528)
