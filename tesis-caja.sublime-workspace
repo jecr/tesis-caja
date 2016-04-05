@@ -4,12 +4,24 @@
 		"selected_items":
 		[
 			[
-				"re",
-				"remaining	statement"
+				"try",
+				"try	Try/Except/Else"
 			],
 			[
-				"try",
-				"try	Try/Except"
+				"cl",
+				"close	function"
+			],
+			[
+				"lec",
+				"lecturaInicial	statement"
+			],
+			[
+				"sea",
+				"search_term	statement"
+			],
+			[
+				"re",
+				"remaining	statement"
 			],
 			[
 				"ema",
@@ -239,6 +251,14 @@
 	},
 	"buffers":
 	[
+		{
+			"file": "recovering/search/tweepy_search.py",
+			"settings":
+			{
+				"buffer_size": 4427,
+				"line_ending": "Windows"
+			}
+		}
 	],
 	"build_system": "",
 	"build_system_choices":
@@ -281,9 +301,23 @@
 	},
 	"expanded_folders":
 	[
+		"/C/Users/Jorge/Documents/GitHub/tesis-caja/recovering",
+		"/C/Users/Jorge/Documents/GitHub/tesis-caja/recovering/search"
 	],
 	"file_history":
 	[
+		"/C/Users/Jorge/Documents/GitHub/tesis-caja/filtering/filtro1.py",
+		"/C/Users/Jorge/Documents/GitHub/tesis-caja/recovering/search/tweepy_search.py",
+		"/C/Users/Jorge/Documents/GitHub/tesis-caja/recovering/search/clasico.txt",
+		"/C/Users/Jorge/Downloads/ejemplo.csv",
+		"/C/Users/Jorge/Google Drive/MADIC/Tesis/Eventos/Uber/Preparación/Base/FechasAnalisis_long.csv",
+		"/C/Users/Jorge/Google Drive/hoy_no_circula.txt",
+		"/C/Users/Jorge/Dropbox/Him/Documentos/SAT/Nuevos/CONTRASEN╠âA.txt",
+		"/C/Users/Jorge/Documents/GitHub/tesis-caja/recovering/search/hoy_no_circula.txt",
+		"/C/Users/Jorge/Documents/GitHub/tesis-caja/recovering/search/outputHoy No Circula.txt",
+		"/C/Users/Jorge/Google Drive/MADIC/Tesis/Eventos/Uber/Preparación/Base/FechasAnalisis.csv",
+		"/C/Users/Jorge/Documents/GitHub/tesis-caja/recovering/recover_aquaman.py",
+		"/C/Users/Jorge/Documents/GitHub/tesis-caja/recovering/search/output.txt",
 		"/Users/vjdarr/Google Drive/MADIC/Tesis/Eventos/Uber/Preparación/Depuración/first_attempts/tweepy_test.py",
 		"/Users/vjdarr/Google Drive/MADIC/Tesis/Eventos/Uber/Preparación/Depuración/first_attempts/search.py",
 		"/Users/vjdarr/Google Drive/MADIC/Tesis/Eventos/Uber/Preparación/Depuración/code/preprocess.py",
@@ -399,23 +433,11 @@
 		"/C/Users/Jorge/Google Drive/MADIC/Tesis/Actores/División/Code/Output/tweets_que_incluyen_a/retweets/Retweets_for_lista_politicos_en_botsynobots.csv",
 		"/C/Users/Jorge/Google Drive/MADIC/Tesis/Actores/División/Code/Output/tweets_que_incluyen_a/retweets/Retweets_for_lista_periodistas_en_botsynobots.csv",
 		"/C/Users/Jorge/Google Drive/MADIC/Tesis/Actores/División/Code/Output/tweets_que_incluyen_a/retweets/Retweets_for_lista_digitales_en_botsynobots.csv",
-		"/C/Users/Jorge/Google Drive/MADIC/Tesis/Actores/División/Code/Output/tweets_que_incluyen_a/retweets/Retweets_for_lista_gobierno_en_botsynobots.csv",
-		"/C/Users/Jorge/Desktop/Adobe/Crack-Windows/install.txt",
-		"/C/Users/Jorge/Desktop/Adobe/Adobe Illustrator CC 17.0.1/Update Management Tool 7.0/readme.txt",
-		"/C/Windows/System32/drivers/etc/hosts",
-		"/C/Program Files/Adobe/Adobe Illustrator CC 2015/Support Files/Contents/Windows/AMT/application.xml",
-		"/C/Users/Jorge/Desktop/CRACK/ADOBE_CC_KEYGEN_WIN_MACOSX-XFORCE/ADOBE_CC_KEYGEN_WIN_MACOSX-XFORCE/Crack-Windows/install.txt",
-		"/C/Users/Jorge/Google Drive/MADIC/Trimestre 04/Gephi Experiments/actores_colors.csv",
-		"/C/Users/Jorge/Google Drive/MADIC/Trimestre 04/Gephi Experiments/retuit_text.csv",
-		"/C/Users/Jorge/Downloads/sitemap.xml",
-		"/C/Users/Jorge/Google Drive/MADIC/Trimestre 04/Gephi Experiments/all_retweets.csv",
-		"/C/Users/Jorge/Desktop/correos_encuesta.txt",
-		"/C/Users/Jorge/Google Drive/MADIC/Tesis/Actores/División/Retweets_Gephi/VIZ/actores_completo.csv",
-		"/C/Users/Jorge/Google Drive/MADIC/Trimestre 04/Gephi Experiments/actores_completo.csv"
+		"/C/Users/Jorge/Google Drive/MADIC/Tesis/Actores/División/Code/Output/tweets_que_incluyen_a/retweets/Retweets_for_lista_gobierno_en_botsynobots.csv"
 	],
 	"find":
 	{
-		"height": 23.0
+		"height": 50.0
 	},
 	"find_in_files":
 	{
@@ -436,6 +458,20 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"bravo",
+			",17/07/2015 ",
+			",16/07/2015 ",
+			",15/07/2015 ",
+			"15/07",
+			"15/07/",
+			"30",
+			"u'remaining':",
+			"limit",
+			"u'limit'",
+			"limit",
+			"u'limit",
+			"search",
+			"fin_de_tuit",
 			" ",
 			"politico",
 			"Deadpool",
@@ -549,21 +585,7 @@
 			"$lan",
 			"$fin",
 			"477",
-			"thumbnailThis",
-			"Ú",
-			"Ó",
-			"Í",
-			"É",
-			"Á",
-			"ú",
-			"ó",
-			"í",
-			"é",
-			"á",
-			"<img src=\"\"",
-			"h2",
-			"<br>",
-			"submit"
+			"thumbnailThis"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -606,8 +628,39 @@
 	"groups":
 	[
 		{
+			"selected": 0,
 			"sheets":
 			[
+				{
+					"buffer": 0,
+					"file": "recovering/search/tweepy_search.py",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 4427,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								599,
+								599
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Python/Python.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				}
 			]
 		}
 	],
