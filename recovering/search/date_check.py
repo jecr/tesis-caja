@@ -8,19 +8,26 @@ from dateutil import parser
 archivo_tweets = sys.argv[1]
 lista_tweets = open(archivo_tweets)
 
-lista_py = []
+algo = 1
 
 for linea in lista_tweets:
-	lista_py.append(linea)
+	print linea
+	if algo == 1:
+		break
 
-unord_dates = []
+# lista_py = []
 
-for element in lista_py:
-	currentJson = json.loads(element)
-	currentDate = parser.parse(currentJson['created_at'])
-	unord_dates.append(currentDate)
+# for linea in lista_tweets:
+# 	lista_py.append(linea)
 
-orderd_dates = sorted(unord_dates)
+# unord_dates = []
 
-for fecha in orderd_dates:
-	print fecha
+# for element in lista_py:
+# 	currentJson = json.loads(element)
+# 	currentDate = parser.parse(currentJson['created_at'])
+# 	unord_dates.append(currentDate)
+
+# orderd_dates = sorted(unord_dates)
+
+# for fecha in orderd_dates:
+# 	print fecha

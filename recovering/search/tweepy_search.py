@@ -25,7 +25,7 @@ twitter_keys['charlie']['c_s'] = 'Jgb87eswqGChTISs8ISOfy6hvg77PPeF7fT3sCAy14bN03
 twitter_keys['charlie']['a_t'] = '108874877-M81jUTUDZXj6Cj86iAELibQHFCo7aZYstKucC5fY'
 twitter_keys['charlie']['a_ts'] = 'OfeBrxSNvBaBr7qyUcfLPtvJopxk2pZk1S99MFla0mGdu'
 
-# python tweepy_search.py alfa "\"hoy no circula\" OR hoynocircula OR contingenciaambiental OR \"contingencia ambiental\"" hoy_no_circula.txt
+# python tweepy_search.py alfa "\"hoy no circula\" OR hoynocircula OR contingenciaambiental OR \"contingencia ambiental\" OR precontingencia" hoy_no_circula.txt
 # python tweepy_search.py bravo "panamapapers OR \"papeles de panama\"" panama_papers.txt
 
 # Selección de aplicación para recuperación
