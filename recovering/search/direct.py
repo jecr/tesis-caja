@@ -8,7 +8,15 @@ from dateutil import parser
 archivo_tweets = sys.argv[1]
 directorio = sys.argv[2]
 
-# Abre el archivo
+# Comprueba la existencia del directorio
+if not os.path.exists(directorio):
+	print directorio+' no existe, creando...'
+	os.makedirs(directorio)
+	print directorio+' creado'
+else:
+	print "El directorio ya existe"
+
+# Abre el archivo de tweets
 lista_tweets = open(archivo_tweets)
 
 # Crea una lista vacía para almacenar las líneas del archivo
@@ -24,16 +32,22 @@ for element in lista_py:
 
 	# Convierte y almacena la fecha en una variable temporal
 	currentDate = parser.parse(currentJson['created_at'])
+	currentDate = str(currentDate).split(' ')[0]
 
-	print str(currentDate).split(' ')[0]
+	# Si el archivo no existe, lo crea
+	dirVerif = directorio+'/'+directorio+'_'+currentDate+'.txt'
+	if not os.path.isfile(dirVerif):
+		print 'Archivo inexstente, creando...'
+		currentFile = open(dirVerif, 'w')
+	else:
+		print 'Archivo encontrado, añadiendo entrada...'
+		currentFile = open(dirVerif, 'a')
 
+	# Escribe la linea en el archivo correspondiente
+	currentFile.write(element)
 
-if not os.path.exists(directorio):
-	print directorio+' no existe, creando...'
-	os.makedirs(directorio)
-	print directorio+' creado'
-else:
-	print "El directorio ya existe"
+	# Cierra el archivo
+	currentFile.close()
 
 # Si el directorio existe, verificamos la existencia de archivos
 # Abrir archivo
