@@ -1,7 +1,6 @@
 # -*- coding: UTF-8 -*-
 import os
 import sys
-import time
 import json
 from dateutil import parser
 
@@ -10,11 +9,11 @@ directorio = sys.argv[2]
 
 # Comprueba la existencia del directorio
 if not os.path.exists(directorio):
-	print directorio+' no existe, creando...'
-	os.makedirs(directorio)
-	print directorio+' creado'
+    print directorio+' no existe, creando...'
+    os.makedirs(directorio)
+    print directorio+' creado'
 else:
-	print "El directorio ya existe"
+    print "El directorio ya existe"
 
 # Abre el archivo de tweets
 lista_tweets = open(archivo_tweets)
@@ -24,38 +23,39 @@ lista_py = []
 
 # Almacena las lineas del archivo dentro de la lista
 for linea in lista_tweets:
-	lista_py.append(linea)
+    lista_py.append(linea)
 
 # Recorre la lista de publicaciones leyendo la fecha de creación
 for element in lista_py:
-	currentJson = json.loads(element)
+    currentJson = json.loads(element)
 
-	# Convierte y almacena la fecha en una variable temporal
-	currentDate = parser.parse(currentJson['created_at'])
-	currentDate = str(currentDate).split(' ')[0]
+    # Convierte y almacena la fecha en una variable temporal
+    currentDate = parser.parse(currentJson['created_at'])
+    currentDate = str(currentDate).split(' ')[0]
 
-	# Si el archivo no existe, lo crea
-	dirVerif = directorio+'/'+directorio+'_'+currentDate+'.txt'
-	if not os.path.isfile(dirVerif):
-		print 'Archivo inexstente, creando...'
-		currentFile = open(dirVerif, 'w')
-	else:
-		print 'Archivo encontrado, añadiendo entrada...'
-		currentFile = open(dirVerif, 'a')
+    # Si el archivo no existe, lo crea
+    dirVerif = directorio+'/'+directorio+'_'+currentDate+'.txt'
+    if not os.path.isfile(dirVerif):
+        print directorio+'_'+currentDate+' no existe, creando...'
+        currentFile = open(dirVerif, 'w')
 
-	# Escribe la linea en el archivo correspondiente
-	currentFile.write(element)
+        # Escribe la linea, luego cierra el archivo
+        currentFile.write(element)
+        currentFile.close()
+    else:
 
-	# Cierra el archivo
-	currentFile.close()
+        # Si el tweet no está en el archivo, escribe la linea
+        currentFile = open(dirVerif, 'r+')
 
-# Si el directorio existe, verificamos la existencia de archivos
-# Abrir archivo
-# Comprobar la existencia de carpeta
-# Leer tweet por tweet, comprobar fecha, convertir, simplificar
-# Comprobar la existencia de archivo (conservar la variable de existencia de carpeta)
-# Si el archivo existe, cargarlo a memoria, almacenarlo en un diccionario temporal y comprobar la existencia de la clave específica
-# Formato de nombre del archivo: archivo_31121989.txt
-# Abrir archivo para adición de contenido
-# Añadir publicación
-# Cerrar archivo
+        # Crea el diccionario de ID's del archivo
+        dict_ids = {}
+        for linea in currentFile:
+            currJsonIn = json.loads(linea)
+            dict_ids[currJsonIn['id']] = ''
+
+        # Comprueba la existencia del ID
+        if not dict_ids.has_key(currentJson['id']):
+
+            # Escribe la linea, luego cierra el archivo
+            currentFile.write(element)
+        currentFile.close()
