@@ -54,6 +54,8 @@ if not os.path.exists(projectTweets):
 else:
     print "El directorio ya existe"
 
+savedDate = ''
+
 while 1 > 0:
     try:
         for page in tweepy.Cursor(api.search, q=search_query, lang="es", count=100, include_entities=True).pages(100):
@@ -68,6 +70,7 @@ while 1 > 0:
 
                 # Si el archivo no existe, lo crea
                 dirVerif = projectTweets+'/'+projectTweets+'_'+currentDate+'.txt'
+                savedDate = currentDate
                 if not os.path.isfile(dirVerif):
                     print projectTweets+'_'+currentDate+' no existe, creando...'
                     currentFile = open(dirVerif, 'w')
@@ -78,22 +81,27 @@ while 1 > 0:
                     currentFile.close()
                 else:
 
-                    # Si el tweet no está en el archivo, escribe la linea
-                    currentFile = open(dirVerif, 'r+')
+                    # Si el archivo ya existe, comrpueba la fecha actual
+                    # contra la anterior, si difieren, cierra el anterior
+                    # y abre el nuevo
+                    if currentDate != savedDate:
+                        currentFile.close()
 
-                    # Crea el diccionario de ID's del archivo
-                    dict_ids = {}
-                    for linea in currentFile:
-                        currJsonIn = json.loads(linea)
-                        dict_ids[currJsonIn['id']] = ''
+                        # Si el archivo existe, lo abre para edición
+                        currentFile = open(dirVerif, 'r+')
+
+                        # Crea el diccionario de ID's del archivo
+                        dictIds = {}
+                        for linea in currentFile:
+                            currJsonIn = json.loads(linea)
+                            dictIds[currJsonIn['id']] = ''
 
                     # Comprueba la existencia del ID
-                    if not dict_ids.has_key(jsondTweet['id']):
+                    if not dictIds.has_key(jsondTweet['id']):
 
                         # Escribe la linea, luego cierra el archivo
                         currentFile.write(cleanTweet)
                         currentFile.write('\n')
-                    currentFile.close()
 
             # Consulta el límite restante de consultas
             data = api.rate_limit_status()
