@@ -27,7 +27,7 @@ twitter_keys['charlie']['c_s'] = 'Jgb87eswqGChTISs8ISOfy6hvg77PPeF7fT3sCAy14bN03
 twitter_keys['charlie']['a_t'] = '108874877-M81jUTUDZXj6Cj86iAELibQHFCo7aZYstKucC5fY'
 twitter_keys['charlie']['a_ts'] = 'OfeBrxSNvBaBr7qyUcfLPtvJopxk2pZk1S99MFla0mGdu'
 
-# python tweepy_search.py alfa "\"hoy no circula\" OR hoynocircula OR contingenciaambiental OR \"contingencia ambiental\" OR precontingencia" hoy_no_circula.txt
+# python recover.py alfa "\"hoy no circula\" OR hoynocircula OR contingenciaambiental OR \"contingencia ambiental\" OR precontingencia" hoy_no_circula
 # python tweepy_search.py bravo "panamapapers OR \"papeles de panama\"" panama_papers.txt
 
 # Selección de aplicación para recuperación
@@ -48,13 +48,16 @@ api = tweepy.API(auth)
 
 # Comprueba la existencia del directorio
 if not os.path.exists(projectTweets):
-    print projectTweets+' no existe, creando...'
+    print projectTweets + ' no existe, creando...'
     os.makedirs(projectTweets)
-    print projectTweets+' creado'
+    print projectTweets + ' creado'
 else:
     print "El directorio ya existe"
 
 savedDate = ''
+
+# Inicializa el diccionario de IDs
+dictIds = {}
 
 while 1 > 0:
     try:
@@ -69,10 +72,10 @@ while 1 > 0:
                 currentDate = str(currentDate).split(' ')[0]
 
                 # Si el archivo no existe, lo crea
-                dirVerif = projectTweets+'/'+projectTweets+'_'+currentDate+'.txt'
+                dirVerif = projectTweets + '/' + projectTweets + '_' + currentDate + '.txt'
                 savedDate = currentDate
                 if not os.path.isfile(dirVerif):
-                    print projectTweets+'_'+currentDate+' no existe, creando...'
+                    print projectTweets + '_' + currentDate + ' no existe, creando...'
                     currentFile = open(dirVerif, 'w')
 
                     # Escribe la linea, luego cierra el archivo
@@ -85,10 +88,15 @@ while 1 > 0:
                     # contra la anterior, si difieren, cierra el anterior
                     # y abre el nuevo
                     if currentDate != savedDate:
-                        currentFile.close()
 
-                        # Si el archivo existe, lo abre para edición
-                        currentFile = open(dirVerif, 'r+')
+                        # Intenta cerrar el archivo abierto, si lo hay
+                        try:
+                            currentFile.close()
+                        except Exception, e:
+                            pass
+
+                        # Si el archivo existe, lo abre para lectura
+                        currentFile = open(dirVerif, 'r')
 
                         # Crea el diccionario de ID's del archivo
                         dictIds = {}
@@ -99,6 +107,15 @@ while 1 > 0:
                     # Comprueba la existencia del ID
                     if not dictIds.has_key(jsondTweet['id']):
 
+                        # Intenta cerrar el archivo abierto, si lo hay
+                        try:
+                            currentFile.close()
+                        except Exception, e:
+                            pass
+
+                        # Abre archivo para edición
+                        currentFile = open(dirVerif, 'a')
+
                         # Escribe la linea, luego cierra el archivo
                         currentFile.write(cleanTweet)
                         currentFile.write('\n')
@@ -106,16 +123,16 @@ while 1 > 0:
             # Consulta el límite restante de consultas
             data = api.rate_limit_status()
             remaining = data['resources']['search']['/search/tweets']['remaining']
-            print str(remaining)+' consultas restantes para Búsqueda y recuperación'
+            print str(remaining) + ' consultas restantes para Búsqueda y recuperación'
             # Fin consulta de límite
             if remaining < 2:
-                print app_selection+' durmiendo zZzZzZ '+time.asctime()
+                print app_selection + ' durmiendo zZzZzZ '+time.asctime()
                 time.sleep(60)
                 break
     except Exception, e:
         if hasattr(e, 'response'):
             if e.response.status_code == 429:
-                print 'Exception: '+app_selection+' durmiendo zZzZzZ '+time.asctime()
+                print 'Exception: ' + app_selection + ' durmiendo zZzZzZ ' + time.asctime()
                 time.sleep(60)
         else:
             print e
